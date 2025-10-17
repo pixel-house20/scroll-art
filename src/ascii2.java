@@ -37,7 +37,9 @@ public class ascii2 {
         shift = shift + direction;
          if (shift > SPACE_WIDTH){
             direction = -5;
-            
+
+    } else if(shift ==0){
+        direction = 5;
     }
     
 }
